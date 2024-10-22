@@ -1,0 +1,104 @@
+body {
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 150px;
+}
+
+.resume-container {
+  font-family: "Arima", system-ui;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.left-section {
+  background-color: #333c4d;
+  color: #bababa;
+  padding: 20px;
+  width: 35%;
+  text-align: center;
+  border-right: 5px solid #bababa;
+}
+
+.left-section img {
+  width: 150px;
+  height: 150px;
+  margin-top: 10%;
+  border-radius: 50%;
+  box-shadow: 0 0 15px #bababa;
+  margin-bottom: 20px;
+}
+
+
+main {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0px 1px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  padding: 2%;
+  margin: 20px 0 10px;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #bababa;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+h4 {
+  padding-left: 20px;
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: fill round;
+  padding: 10;
+  margin: 10px 0;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+.right-section {
+  padding: 20px;
+  width: 65%;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  font-family: "Arima", system-ui;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 15px black;
+  background-color: #bababa;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #333c4d;
+  color: #bababa;
+}

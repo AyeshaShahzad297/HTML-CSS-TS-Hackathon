@@ -104,6 +104,10 @@ button:hover {
 }
 
 @media only screen and (max-width: 768px) {
+   *{
+    margin: 0;
+    padding: 0;
+  }
   .resume-container {
     margin: 0;
     padding: 0;

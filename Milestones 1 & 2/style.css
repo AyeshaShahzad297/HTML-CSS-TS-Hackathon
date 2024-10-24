@@ -102,3 +102,56 @@ button:hover {
   background-color: #333c4d;
   color: #bababa;
 }
+
+@media only screen and (max-width: 768px) {
+  .resume-container {
+    width: 100%;
+    display: block;
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+
+  .left-section {
+    width: 100%;
+    border-right: none;
+  }
+
+  .left-section img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90px;
+    height: 90px;
+    margin-top: 70px;
+
+  }
+
+  .right-section {
+    width: 100%;
+    padding: 10px;
+  }
+
+  #education {
+    margin-top: 400px;
+  }
+
+  .personalinfo {
+    display: flex;
+    width: 100%;
+  }
+
+  #objective {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 250px;
+    background-color: #333c4d;
+    color: #bababa;
+    padding: 20px;
+
+  }
+
+}
